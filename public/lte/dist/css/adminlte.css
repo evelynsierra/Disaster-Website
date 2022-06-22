@@ -53023,3 +53023,10 @@ a.text-muted:hover {
   border: 3px solid royalblue;
 }
 
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+

@@ -6,10 +6,10 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="index3.html" class="nav-link">Map View</a>
+            <a href="/mapview" class="nav-link">Map View</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link">Chart View</a>
+            <a href="/chartview" class="nav-link">Chart View</a>
         </li>
     </ul>
 

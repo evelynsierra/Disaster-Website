@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin/mapview');
 });
 
 Route::get('/mapview', 'AdminController@index');
+Route::get('/chartview', 'AdminController@chartview');

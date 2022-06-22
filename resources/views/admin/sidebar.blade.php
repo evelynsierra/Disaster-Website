@@ -12,9 +12,9 @@
             <div class="image">
                 <img src="lte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
             </div>
-            <div class="info">
+            <!--<div class="info">
                 <a href="#" class="d-block">Alexander Pierce</a>
-            </div>
+            </div>-->
         </div>
 
         <!-- SidebarSearch Form -->
@@ -38,7 +38,7 @@
                     <a href="#" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Starter Pages
+                            Volcanoes Map
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -46,13 +46,13 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Active Page</p>
+                                <p>Earthquakes Map</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Inactive Page</p>
+                                <p>Landslide Map</p>
                             </a>
                         </li>
                     </ul>

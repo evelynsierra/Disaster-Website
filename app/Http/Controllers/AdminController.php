@@ -11,4 +11,8 @@ class AdminController extends Controller
     {
         return view('admin/mapview');
     }
+    public function chartview()
+    {
+        return view('admin/chartview');
+    }
 }
