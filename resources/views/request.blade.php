@@ -31,7 +31,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
         <!-- Main Sidebar Container -->
-        @include('admin/sidebar')
+        @include('admin/sidebarrequest')
 
 
 
@@ -58,13 +58,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
-                    <div class="row">
+                    <div class="formrow">
                         <!-- left column -->
                         <div>
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Quick Example</h3>
+                                    <h3 class="card-title">Request Dataset</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->

@@ -11986,7 +11986,14 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
 .layout-navbar-fixed .dark-mode .wrapper .sidebar-light-secondary .brand-link:not([class*="navbar"]) {
   background-color: #fff;
 }
-
+.formrow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -7.5px;
+}
 .layout-navbar-fixed .dark-mode .wrapper .sidebar-dark-success .brand-link:not([class*="navbar"]) {
   background-color: #393d3f;
 }
