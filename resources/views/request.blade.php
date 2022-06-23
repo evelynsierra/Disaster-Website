@@ -79,7 +79,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputFile">File input</label>
+                                            <label for="exampleInputFile">Files</label>
                                             <div class="input-group">
                                                 <div class="custom-file">
                                                     <input type="file" class="custom-file-input" id="exampleInputFile">
@@ -89,10 +89,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                     <span class="input-group-text">Upload</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
@@ -140,8 +136,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="{{asset('lte/dist/js/adminlte.min.js')}}"></script>
     <!-- bs-custom-file-input -->
     <script src="{{asset('lte/plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="{{asset('lte/dist/js/demo.js')}}"></script>
     <!-- Page specific script -->
     <script>
         $(function() {
