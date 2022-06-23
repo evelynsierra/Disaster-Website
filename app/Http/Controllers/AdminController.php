@@ -15,4 +15,16 @@ class AdminController extends Controller
     {
         return view('admin/chartview');
     }
+    public function request()
+    {
+        return view('/request');
+    }
+    public function contact()
+    {
+        return view('/contact');
+    }
+    public function faq()
+    {
+        return view('/faq');
+    }
 }

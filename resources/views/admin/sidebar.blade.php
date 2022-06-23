@@ -1,4 +1,4 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #393d3f;">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
         <img src="{{asset('/lte/dist/img/logo.png')}}" style="height: 100px;" alt="Logo">
@@ -8,10 +8,10 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
-        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-            <div class="image">
+        <div class="user-panel mt-2 pb-3 mb-3 d-flex">
+            <!--<div class="image">
                 <img src="lte/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-            </div>
+            </div>-->
             <!--<div class="info">
                 <a href="#" class="d-block">Alexander Pierce</a>
             </div>-->
@@ -36,36 +36,40 @@
                with font-awesome or any other icon font library -->
                 <li class="nav-item menu-open">
                     <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <i class="nav-icon fas fa-solid fa-bars"></i>
                         <p>
-                            Volcanoes Map
+                            Menu
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="/mapview" class="nav-link active">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Earthquakes Map</p>
+                                <p>Home</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/request" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Landslide Map</p>
+                                <p>Request Datasets</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/faq" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>FAQ</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/contact" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Contact</p>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-th"></i>
-                        <p>
-                            Simple Link
-                            <span class="right badge badge-danger">New</span>
-                        </p>
-                    </a>
-                </li>
+                
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

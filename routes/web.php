@@ -11,9 +11,14 @@
 |
 */
 
+use App\Http\Controllers\AdminController;
+
 Route::get('/', function () {
     return view('admin/mapview');
 });
 
 Route::get('/mapview', 'AdminController@index');
 Route::get('/chartview', 'AdminController@chartview');
+Route::get('/request','AdminController@request');
+Route::get('/contact','AdminController@contact');
+Route::get('/faq','AdminController@faq');
