@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 Route::get('/mapview', 'AdminController@index');
 Route::get('/chartview', 'AdminController@chartview');
-Route::get('/request','AdminController@request');
-Route::get('/contact','AdminController@contact');
-Route::get('/faq','AdminController@faq');
+Route::get('/request', 'AdminController@request');
+Route::get('/contact', 'AdminController@contact');
+Route::get('/faq', 'AdminController@faq');
+Route::get('/tornadomap', 'AdminController@tornado');
+Route::get('/landslidemap', 'AdminController@landslide');
+Route::get('/forestmap', 'AdminController@forest');

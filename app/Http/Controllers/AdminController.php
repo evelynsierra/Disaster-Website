@@ -27,4 +27,16 @@ class AdminController extends Controller
     {
         return view('/faq');
     }
+    public function tornado()
+    {
+        return view('/tornado');
+    }
+    public function landslide()
+    {
+        return view('/landslide');
+    }
+    public function forest()
+    {
+        return view('/forest');
+    }
 }

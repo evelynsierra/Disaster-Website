@@ -42,7 +42,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Map View</h1>
+                            <h1 class="m-0">Earthquake Map</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
@@ -55,102 +55,79 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- /.content-header -->
 
-            <!-- For Map-->
-            @include('earthquake')
-            <!-- !End Map -->
-
             <!-- Main content -->
             <div class="content">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                    <div class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="m-0">Featured</h5>
+                                        </div>
 
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.
-                                    </p>
+                                        <div class="card-body">
+                                            <h6 class="card-title">Jenis Bencana</h6>
 
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                            <p class="card-text">Tekan dropdown button untuk menampilkan bencana-bencana yang diinginkan</p>
+                                            <div class="dropdown">
+                                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Map View
+                                                    <span class="caret"></span></button>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="/mapview">Earthquake Map</a></li>
+                                                    <li><a href="/landslidemap">LandSlide Map</a></li>
+                                                    <li><a href="/tornadomap">Tornado Map</a></li>
+                                                    <li><a href="/forestmap">Forest Fire Map</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="card card-primary card-outline">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                            <!-- /.col-md-6 -->
 
-                                    <p class="card-text">
-                                        Some quick example text to build on the card title and make up the bulk of the card's
-                                        content.
-                                    </p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
-                                </div>
-                            </div><!-- /.card -->
-                        </div>
-                        <!-- /.col-md-6 -->
-                        <div class="col-lg-6">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h5 class="m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-
-                            <div class="card card-primary card-outline">
-                                <div class="card-header">
-                                    <h5 class="m-0">Featured</h5>
-                                </div>
-                                <div class="card-body">
-                                    <h6 class="card-title">Special title treatment</h6>
-
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.col-md-6 -->
+                            <!-- /.row -->
+                        </div><!-- /.container-fluid -->
                     </div>
-                    <!-- /.row -->
-                </div><!-- /.container-fluid -->
+                    <!-- /.content -->
+                </div>
             </div>
-            <!-- /.content -->
+            <!-- /.content-wrapper -->
+
+            <!-- For Map-->
+            @include('disaster/earthquake')
+            <!-- !End Map -->
+
+
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+                <!-- Control sidebar content goes here -->
+                <div class="p-3">
+                    <h5>Title</h5>
+                    <p>Sidebar content</p>
+                </div>
+            </aside>
+            <!-- /.control-sidebar -->
+
+            <!-- Main Footer -->
+            @include('admin/footer')
         </div>
-        <!-- /.content-wrapper -->
+        <!-- ./wrapper -->
 
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-            <div class="p-3">
-                <h5>Title</h5>
-                <p>Sidebar content</p>
-            </div>
-        </aside>
-        <!-- /.control-sidebar -->
+        <!-- REQUIRED SCRIPTS -->
 
-        <!-- Main Footer -->
-        @include('admin/footer')
-    </div>
-    <!-- ./wrapper -->
+        <!-- jQuery -->
+        <script src="{{asset('lte/plugins/jquery/jquery.min.js')}}"></script>
+        <!-- Bootstrap 4 -->
+        <script src="{{asset('lte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <!-- AdminLTE App -->
+        <script src="{{asset('lte/dist/js/adminlte.min.js')}}"></script>
 
-    <!-- REQUIRED SCRIPTS -->
-
-    <!-- jQuery -->
-    <script src="{{asset('lte/plugins/jquery/jquery.min.js')}}"></script>
-    <!-- Bootstrap 4 -->
-    <script src="{{asset('lte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <!-- AdminLTE App -->
-    <script src="{{asset('lte/dist/js/adminlte.min.js')}}"></script>
-    
-    <!-- Map -->
+        <!-- Map -->
 
 </body>
 
