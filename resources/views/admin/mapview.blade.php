@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Disaster Web Dashboard</title>
-    <link rel="icon" img src="{{asset('/lte/dist/img/Icon.png')}}" type="image/icon type">
+    <link rel="icon" img src="{{asset('lte/dist/img/Icon.png')}}" type="image/icon type">
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -98,7 +98,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- /.content-wrapper -->
 
             <!-- For Map-->
+            <div class="content">
             @include('disaster/earthquake')
+            </div>
             <!-- !End Map -->
 
 

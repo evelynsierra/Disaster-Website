@@ -56,25 +56,63 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </div>
             <!-- Content -->
             <div class="content">
-                <div class="container-fluid">
-                    <h4 class="m-0">Jumlah Kejadian Bencana di Indonesia (2008 - 2022)</h1>
-                </div>
+                
             </div>
             <!-- chart -->
             @include('disaster/barchart')
             <!-- chart -->
             <!-- /.content -->
 
-            
-            <div class="content" style="margin-top:50px;">
-                <div class="container-fluid">
-                    <h4 class="m-0">Jumlah Kejadian Bencana di Indonesia (2008 - 2022)</h1>
-                </div>
+            <div class="content" style="margin-top:50px;">    
             </div>
 
-            
             <!-- chart -->
             @include('disaster/yearly')
+            <!-- chart -->
+            <!-- /.content -->
+
+            <div class="content" style="margin-top:50px;"> 
+                <h4 style="margin-left:50px;">Jumlah Fasilitas Umum yang Rusak</h4>   
+            </div>
+
+            <!-- chart -->
+            @include('disaster/fasum_rusak')
+            <!-- chart -->
+            <!-- /.content -->
+
+            <div class="content" style="margin-top:50px;">  
+            <h4 style="margin-left:50px;">Jumlah Korban yang Hilang</h4>   
+            </div>
+
+            <!-- chart -->
+            @include('disaster/hilang')
+            <!-- chart -->
+            <!-- /.content -->
+
+            <div class="content" style="margin-top:50px;">    
+            <h4 style="margin-left:50px;">Jumlah Korban yang Meninggal</h4> 
+            </div>
+
+            <!-- chart -->
+            @include('disaster/meninggal')
+            <!-- chart -->
+            <!-- /.content -->
+
+            <div class="content" style="margin-top:50px;">    
+            <h4 style="margin-left:50px;">Jumlah Rumah Korban yang Rusak</h4> 
+            </div>
+
+            <!-- chart -->
+            @include('disaster/rumah_rusak')
+            <!-- chart -->
+            <!-- /.content -->
+
+            <div class="content" style="margin-top:50px;">  
+            <h4 style="margin-left:50px;">Jumlah Korban yang Terluka</h4>   
+            </div>
+
+            <!-- chart -->
+            @include('disaster/terluka')
             <!-- chart -->
             <!-- /.content -->
         </div>
